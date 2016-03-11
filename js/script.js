@@ -1,3 +1,14 @@
+var numberFromUser = prompt("Input a number");
+var stringToNumber = parseInt(numberFromUser);
+var checkForDecimal = Math.floor(numberFromUser);
+
+function userInput(a) {
+
+  
+  return a;
+
+};
+
 for (var i = 1; i <= 100; i++) {
 
   if ((i % 3 == 0) && (i % 5 == 0)) {
